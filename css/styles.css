@@ -1,0 +1,21 @@
+.title {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.recipe_list {
+    text-align: left;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+img {
+    width: 500px;
+    height: auto;
+}
