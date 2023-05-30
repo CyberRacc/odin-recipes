@@ -5,7 +5,9 @@
     background-color: aquamarine;
     margin: 5% 10%;
     padding: 12px;
-
+    border: 4px;
+    border-color: purple;
+    border-style: solid;
 }
 
 body {
@@ -38,10 +40,13 @@ img {
 }
 
 button {
-    display: block;
+    display: inline-block;
     padding: 8px;
     background-color: hotpink;
-    margin: 8px auto;
+    margin: 0 auto;
+    border-style: solid;
+    border-color: purple;
+    border-radius: 6px;
 }
 
 .recipe-title {
@@ -63,3 +68,9 @@ button {
     margin: 8px;
 }
 
+.about {
+    padding-left: 18px;
+    padding-right: 18px;
+    display: block;
+    margin: 8px;
+}
