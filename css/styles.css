@@ -1,14 +1,23 @@
 .title {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
+    display: block;
+    background-color: aquamarine;
+    margin: 5% 10%;
+    padding: 12px;
+
 }
 
 body {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
 }
 
 .recipe_list {
-    text-align: left;
+    display: block;
+    font-weight: bold;
+    font-size: 14px;
+    margin: auto;
+    text-align: center;
 }
 
 h1, h2 {
@@ -20,6 +29,13 @@ img {
     height: auto;
     margin: auto;
     display: block;
+}
+
+button {
+    display: block;
+    padding: 8px;
+    background-color: hotpink;
+    margin: auto;
 }
 
 
