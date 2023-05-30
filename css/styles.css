@@ -51,6 +51,11 @@ button {
     margin: auto;
 }
 
+.recipe-title img {
+    display: block;
+    padding: 5px;
+}
+
 .recipe-desc {
     display: block;
     padding-left: 18px;
