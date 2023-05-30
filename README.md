@@ -14,3 +14,7 @@ I've done HTML in the past at university, but nothing complex, so it's been nice
 ### Update 29/05/2023
 
 Starting to add basic CSS to the website, centering images and learning about the box model.
+
+### Update 30/05/2023
+
+Renamed website to Three-Recipes, the repository will remain the same.
