@@ -38,4 +38,10 @@ button {
     margin: auto;
 }
 
+.recipe-title {
+    display: block;
+    padding: 5px;
+    border: 2px;
+    margin: 2px;
+}
 
