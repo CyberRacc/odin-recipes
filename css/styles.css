@@ -18,13 +18,13 @@ body {
     display: flex;
     font-weight: bold;
     font-size: 14px;
-    text-align: center;
     margin: 0 auto;
 }
 
 .recipe_list li {
     list-style-type: none;
-    margin: 0 auto;
+    flex: 1;
+    text-align: center;
 }
 
 h1, h2 {
@@ -51,7 +51,9 @@ img {
 
 button {
     padding: 6px;
-    
+    flex: 1;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .recipe-title {
