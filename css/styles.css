@@ -5,9 +5,9 @@
     background-color: aquamarine;
     margin: 5% 10%;
     padding: 12px;
-    border: 4px;
     border-color: purple;
     border-style: solid;
+    border-radius: 50px;
 }
 
 body {
@@ -18,13 +18,19 @@ body {
     display: flex;
     font-weight: bold;
     font-size: 16px;
-    margin: 0 auto;
-    justify-content: center;
+    margin-left: 10%;
 }
 
 .recipe_list li {
-    list-style-type: none;
     flex: 1;
+    text-align: left;
+}
+
+.recipes-h2 h2 {
+    text-align: left;
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 2.5%;
 }
 
 h1, h2 {
@@ -40,44 +46,44 @@ img {
 
 .buttons {
     display: flex;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 4px;
-    padding-bottom: 4px;
-    background-color: hotpink;
-    margin-left: 25%;
-    margin-right: 25%;
-    border-style: solid;
-    border-color: purple;
-    border-radius: 6px;
 }
 
 button {
     padding: 6px;
-    flex: 1;
+    flex: auto;
     margin-left: 10%;
     margin-right: 10%;
+    border-style: solid;
+    border-radius: 50px;
+    background-color: hotpink;
 }
 
 .recipe-title {
     display: block;
     padding: 5px;
     border: 5px;
+    border-style: solid;
+    border-radius: 25px;
     margin-top: 24px;
     text-decoration: underline;
 }
 
 .recipe-title img {
     display: block;
-    padding: 5px;
+    padding-left: 18px;
+    padding-right: 18px;
     margin: 24px auto;
+    border-radius: 100px;
 }
 
 .recipe-desc {
     display: block;
     padding-left: 18px;
     padding-right: 18px;
-    margin: 8px;
+    margin: 24px auto;
+    border: 5px;
+    border-style: solid;
+    border-radius: 25px;
 }
 
 .about {
@@ -85,4 +91,17 @@ button {
     padding-right: 18px;
     display: block;
     margin: 8px;
+    text-align: left;
+}
+
+.welcome p {
+    text-align: left;
+    margin-left: 10%;
+}
+
+.welcome-heading h2 {
+    text-align: left;
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 2.5%;
 }
