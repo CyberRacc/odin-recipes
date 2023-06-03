@@ -103,9 +103,14 @@ button {
     margin-left: 10%;
 }
 
-.welcome-heading h2 {
+.page-heading h2 {
     text-align: left;
     margin-left: 10%;
     margin-top: 5%;
     margin-bottom: 2.5%;
+}
+
+p {
+    text-align: left;
+    margin-left: 10%;
 }
