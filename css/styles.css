@@ -111,6 +111,12 @@ button {
 }
 
 p {
+    display: flex;
     text-align: left;
-    margin-left: 10%;
+    margin: 5% 10%;
+}
+
+ul, ol {
+    display: block;
+    margin: 5%;
 }
