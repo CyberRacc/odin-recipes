@@ -16,14 +16,9 @@ body {
 
 .recipe_list {
     display: flex;
+    flex-basis: 50%;
     font-weight: bold;
     font-size: 16px;
-    margin-left: 10%;
-}
-
-.recipe_list li {
-    flex: 1;
-    text-align: left;
 }
 
 .recipes-h2 h2 {
@@ -119,4 +114,8 @@ p {
 ul, ol {
     display: block;
     margin: 5%;
+}
+
+li {
+    padding-bottom: ;
 }
