@@ -2,12 +2,12 @@
     font-family: Impact, 'Arial Narrow Bold', sans-serif;
     text-align: center;
     display: block;
-    background-color: aquamarine;
+    background-color: rgb(152, 255, 221);
     margin: 5% 10%;
     padding: 12px;
-    border-color: purple;
+    border-color: rgb(0, 0, 0);
     border-style: solid;
-    border-radius: 50px;
+    border-radius: 100px;
 }
 
 body {
@@ -41,16 +41,16 @@ img {
 
 .buttons {
     display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 button {
-    padding: 6px;
-    flex: auto;
-    margin-left: 10%;
-    margin-right: 10%;
+    padding: 10px;
     border-style: solid;
-    border-radius: 50px;
-    background-color: hotpink;
+    border-radius: 25px;
+    background-color: rgb(255, 143, 199);
     font-weight: bold;
     font-size: 16px;
 }
